@@ -18,8 +18,6 @@ body {
   right: 0;
   margin-top: auto;
   margin-bottom: auto;
-  /* margin-right: 100px; */
-  /* margin-left: 100px; */
 }
 
 p.company {
@@ -29,14 +27,14 @@ p.company {
   /* padding: 0; */
 }
 
-p#sub-company {
-  color: #416165;
-  margin-top: -5px;
-}
-
 p {
   font-family: 'Josefin Sans', Arial, sans-serif;
   font-weight: 300;
+}
+
+p.sub-company {
+  color: #416165;
+  margin-top: -5px;
 }
 
 a:link {
@@ -53,11 +51,11 @@ a:hover{
     font-size: 100px;
   }
 
-  p#sub-company {
+  p.sub-company {
     font-size: 25px;
   }
 
-  p#text {
+  p.text {
     font-size: 16px;
   }
 }
@@ -67,11 +65,11 @@ a:hover{
     font-size: 50px;
   }
 
-  p#sub-company {
+  p.sub-company {
     font-size: 15px;
   }
 
-  p#text {
+  p.text {
     font-size: 12px;
   }
 }
