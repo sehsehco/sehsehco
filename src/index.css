@@ -46,17 +46,29 @@ a:hover{
   color: #416165;
 }
 
-@media screen and (min-width: 601px) {
+p.company {
+  font-size: 100px;
+}
+
+p.sub-company {
+  font-size: 40px;
+}
+
+p.text {
+  font-size: 25px;
+}
+
+/* @media screen and (min-width: 601px) {
   p.company {
     font-size: 100px;
   }
 
   p.sub-company {
-    font-size: 25px;
+    font-size: 40px;
   }
 
   p.text {
-    font-size: 16px;
+    font-size: 25px;
   }
 }
 
@@ -72,4 +84,4 @@ a:hover{
   p.text {
     font-size: 12px;
   }
-}
+} */
